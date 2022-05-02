@@ -3,7 +3,7 @@ import { useState } from 'react';
 export default function SloganForm({ setCitySlogans, citySlogans }) {
   // React forms are a pain! 
   // Track the sloganInput form state with a useState hook
-  const [sloganInput, setSloganInput] = useState('test');
+  const [sloganInput, setSloganInput] = useState('');
     
   function handleSubmit(e) {
     e.preventDefault();
